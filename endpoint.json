@@ -1,0 +1,41 @@
+{
+  "label": "Google Recaptcha",
+  "name": "google-recaptcha",
+  "apiVersion": "v1",
+  "internal": false,
+  "configurationType": "GLOBAL",
+  "deployment": {
+    "profiles": [
+      {
+        "name": "default",
+        "label": "Default",
+        "memory": 256,
+        "description": "Default configuration"
+      }
+    ],
+    "allowMultipleInstances": false
+  },
+  "icon48": "https://storage.googleapis.com/static.slingrs.io/platform/endpoints/google-recaptcha.png",
+  "configurationHelpUrl": "/endpoints_google-recaptcha.html",
+  "status": "ACTIVE",
+  "stores": [],
+  "events": [],
+  "functions": [
+    {
+      "label": "Check Captcha",
+      "name": "_checkCaptcha"
+    }
+  ],
+  "scripts": [
+    "functions.js"
+  ],
+  "listeners": [],
+  "configuration": [
+    {
+      "label": "Recaptcha Secret",
+      "name": "recaptchaSecret",
+      "type": "text",
+      "required": true
+    }
+  ]
+}
