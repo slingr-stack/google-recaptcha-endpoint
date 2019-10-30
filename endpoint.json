@@ -22,8 +22,8 @@
   "events": [],
   "functions": [
     {
-      "label": "Check Captcha",
-      "name": "_checkCaptcha"
+      "label": "Validate Token",
+      "name": "_validateToken"
     }
   ],
   "scripts": [

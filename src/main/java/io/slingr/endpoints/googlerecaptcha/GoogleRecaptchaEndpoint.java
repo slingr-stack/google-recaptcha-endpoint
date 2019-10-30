@@ -28,12 +28,12 @@ public class GoogleRecaptchaEndpoint extends Endpoint {
         this.reCaptchaClient = new ReCaptchaClient(recaptchaSecret);
     }
 
-    @EndpointFunction(name = "_checkCaptcha")
-    public Json checkCaptcha(FunctionRequest request) {
+    @EndpointFunction(name = "_validateToken")
+    public Json validateToken(FunctionRequest request) {
 
         Json body = request.getJsonParams();
-        String captcha = body.string("captcha");
+        String token = body.string("token");
 
-        return this.reCaptchaClient.checkCaptcha(captcha);
+        return this.reCaptchaClient.checkCaptcha(token);
     }
 }

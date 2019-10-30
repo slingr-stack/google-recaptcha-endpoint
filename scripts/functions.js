@@ -2,19 +2,9 @@
 // Public API - Generic Functions
 /////////////////////
 
-
-endpoint.check = function (captcha) {
-    var res = endpoint.checkCaptcha(captcha);
-    if(res.status == 'success') {
-        return true;
-    }
-
-    return false;
-};
-
-endpoint.checkCaptcha = function (captcha) {
+endpoint.validate = function (token) {
     var config = {
-        captcha: captcha
+        token: token
     };
-    return endpoint._checkCaptcha(config);
+    return endpoint._validateToken(config);
 };
