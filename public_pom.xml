@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.slingr.endpoints</groupId>
-    <artifactId>googlerecaptcha</artifactId>
+    <artifactId>google-recaptcha</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>SLINGR - Google Recaptcha Endpoint</name>

@@ -16,7 +16,7 @@
     "allowMultipleInstances": false
   },
   "icon48": "https://storage.googleapis.com/static.slingrs.io/platform/endpoints/google-recaptcha.png",
-  "configurationHelpUrl": "/endpoints_google-recaptcha.html",
+  "configurationHelpUrl": "/endpoints_google_recaptcha.html",
   "status": "ACTIVE",
   "stores": [],
   "events": [],
