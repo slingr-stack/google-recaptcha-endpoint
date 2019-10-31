@@ -13,7 +13,7 @@ import org.apache.log4j.Logger;
  * <p>
  * <p>Created by hpacini on 28/10/19.
  */
-@SlingrEndpoint(name = "google-recaptcha", functionPrefix = "_")
+@SlingrEndpoint(name = "googlerecaptcha")
 public class GoogleRecaptchaEndpoint extends Endpoint {
 
     private static final Logger logger = Logger.getLogger(GoogleRecaptchaEndpoint.class);

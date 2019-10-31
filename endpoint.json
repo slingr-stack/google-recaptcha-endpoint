@@ -1,6 +1,6 @@
 {
   "label": "Google Recaptcha",
-  "name": "google-recaptcha",
+  "name": "googlerecaptcha",
   "apiVersion": "v1",
   "internal": false,
   "configurationType": "GLOBAL",
