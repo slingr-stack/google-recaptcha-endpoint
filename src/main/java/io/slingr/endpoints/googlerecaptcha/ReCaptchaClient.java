@@ -25,7 +25,7 @@ public class ReCaptchaClient extends RestClient {
         body.set(SECRET, secret);
         body.set(RESPONSE, captcha);
 
-        WebTarget target = getApiTarget().path("").queryParam(SECRET, secret).queryParam(RESPONSE, captcha);
+        WebTarget target = getApiTarget().path("");
 
         Json res = post(target, body);
 

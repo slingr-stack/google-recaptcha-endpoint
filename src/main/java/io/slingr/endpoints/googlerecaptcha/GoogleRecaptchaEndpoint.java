@@ -30,7 +30,6 @@ public class GoogleRecaptchaEndpoint extends Endpoint {
 
     @EndpointFunction(name = "_validateToken")
     public Json validateToken(FunctionRequest request) {
-
         Json body = request.getJsonParams();
         String token = body.string("token");
 
